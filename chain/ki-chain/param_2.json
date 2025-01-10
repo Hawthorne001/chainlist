@@ -1,0 +1,92 @@
+{
+    "chain_id_cosmos" : "kichain-2",
+    "chain_name": "KiChain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ki-chain/resource/chain_ki-chain.png",
+    "main_asset_denom" : "uxki",
+    "main_asset_symbol" : "XKI",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/ki-chain/asset/xki.png",
+    "bech_account_prefix" : "ki",
+    "bech_validator_prefix" : "kivaloper",
+    "origin_genesis_time" : "2020-08-04T00:00:00Z",
+    "api_name" : "ki-chain",
+    "is_support_cw20" : true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/118'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.025uxki"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-ki-chain.cosmostation.io:443"
+        },
+        {
+            "provider": "Notional",
+            "url": "grpc-kichain-ia.cosmosia.notional.ventures:443"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "kichain-grpc.lavenderfive.com:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-ki-chain.cosmostation.io/"
+        },
+        {
+            "provider": "kifoundation",
+            "url": "https://api-mainnet.blockchain.ki/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://kichain.api.m.stavr.tech/"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.kichain.chaintools.tech/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://kichain-mainnet-lcd.autostake.com/"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/ki-chain",
+        "account": "https://atomscan.com/ki-chain/accounts/${address}",
+        "tx": "https://atomscan.com/ki-chain/transactions/${hash}",
+        "proposal": "https://atomscan.com/ki-chain/votes/${id}"
+    },
+    "about" : {
+        "website" : "https://www.foundation.ki/",
+        "docs": "https://foundation.ki",
+        "github" : "https://github.com/KiFoundation",
+        "blog" : "https://medium.com/ki-foundation",
+        "medium": "https://medium.com/ki-foundation",
+        "twitter" : "https://twitter.com/Ki_Foundation",
+        "coingecko" : "https://www.coingecko.com/en/coins/ki"
+    },
+    "description" : {
+        "ko" : "Ki 체인은 Cosmos SDK로 구축된 분산형 금융을 지원하도록 설계된 오픈 소스 퍼블릭 블록체인입니다.",
+        "en" : "Ki chain is an open source, public blockchain designed to enable decentralized finance, built with the Cosmos SDK.",
+        "ja" : "Ki チェーンは、分散型金融を可能にするために設計されたオープンソースのパブリック ブロックチェーンで、Cosmos SDK で構築されています。"
+    }
+}

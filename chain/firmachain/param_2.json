@@ -1,0 +1,81 @@
+{
+    "chain_id_cosmos": "colosseum-1",
+    "chain_name": "FirmaChain",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/firmachain/resource/chain_firmachain.png",
+    "main_asset_denom": "ufct",
+    "main_asset_symbol": "FCT",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/firmachain/asset/fct.png",
+    "bech_account_prefix": "firma",
+    "bech_validator_prefix": "firmavaloper",
+    "origin_genesis_time": "2022-01-26T14:00:00Z",
+    "api_name": "firmachain",
+    "is_support_mobile_wallet" : true,
+    "is_support_extension_wallet" : true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type": [
+        {
+            "hd_path": "m/44'/7777777'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info": {
+        "base": "1",
+        "rate": [
+            "0.1ufct",
+            "0.15ufct",
+            "0.2ufct"
+        ],
+        "is_simulable": true,
+        "simulated_gas_multiply": 1.2,
+        "init_gas_limit": 300000
+    },
+    "grpc_endpoint": [
+    ],
+    "lcd_endpoint": [
+        {
+            "provider": "FirmaChain",
+            "url": "https://lcd-mainnet.firmachain.dev:1317"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://firma.api.m.stavr.tech"
+        },
+        {
+            "provider": "ChainTools",
+            "url": "https://api.firmachain.chaintools.tech"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "https://rest.lavenderfive.com:443/firmachain"
+        },
+        {
+            "provider": "ramuchi.tech",
+            "url": "https://firmachain-api.ramuchi.tech"
+        },
+        {
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥",
+            "url": "https://firmachain_mainnet_api.chain.whenmoonwhenlambo.money"
+        }
+    ],
+    "explorer": {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/firmachain",
+        "account": "https://atomscan.com/firmachain/accounts/${address}",
+        "tx": "https://atomscan.com/firmachain/transactions/${hash}",
+        "proposal": "https://atomscan.com/firmachain/votes/${id}"
+    },
+    "about": {
+        "website": "https://firmachain.org/",
+        "github": "https://github.com/firmachain",
+        "twitter": "https://twitter.com/FirmaChain"
+    },
+    "description": {
+        "en": "FIRMACHAIN adds a signing and verifying e-contract function to the blockchain. Unlocking new limits of electronic contracts with blockchain technology, FIRMACHAIN seeks to resolve all the social and legal issues (contracts, notarial, etc.) with written contracts through the use of electronic contracts based on FIRMACHAIN’s data blockchain.",
+        "ko": "FIRMACHAIN은 블록체인에 서명 및 검증 전자 계약 기능을 추가합니다. 블록체인 기술로 전자 계약의 새로운 한계를 여는 FIRMACHAIN은 FIRMACHAIN의 데이터 블록체인을 기반으로 하는 전자 계약을 사용하여 서면 계약으로 모든 사회적 및 법적 문제(계약, 공증 등)를 해결하고자 합니다.",
+        "ja": "FIRMACHAIN は、ブロックチェーンに電子契約の署名と検証機能を追加します。ブロックチェーン技術で電子契約の新たな限界を解き放ち、FIRMACHAIN は、FIRMACHAIN のデータ ブロックチェーンに基づく電子契約の使用を通じて、書面による契約に伴うすべての社会的および法的問題 (契約、公証など) の解決を目指します。"
+    }
+}
+

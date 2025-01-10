@@ -1,0 +1,105 @@
+{
+    "chain_id_cosmos" : "phoenix-1",
+    "chain_name": "Terra",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/resource/chain_terra.png",
+    "main_asset_denom" : "uluna",
+    "main_asset_symbol" : "LUNA",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/terra/asset/luna.png",
+    "bech_account_prefix" : "terra",
+    "bech_validator_prefix" : "terravaloper",
+    "origin_genesis_time" : "2022-05-28T06:00:00Z",
+    "api_name" : "terra",
+    "is_support_cw20" : true,
+    "is_support_mintscan": true,
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/330'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "0.015uluna,0.018ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB,0.018ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4",
+            "0.04uluna,0.05ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB,0.05ibc/B3504E092456BA618CC28AC671A71FB08C6CA0FD0BE7C8A5B5A3E2DD933CC9E4"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.2,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-terra.cosmostation.io:443"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "terra2.tdrsys.com:2083"
+        },
+        {
+            "provider": "Lavender.Five Nodes 🐝",
+            "url": "terra2-grpc.lavenderfive.com:443"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "terra-grpc.chainroot.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-terra.cosmostation.io/"
+        },
+        {
+            "provider": "🧙 WildSage Labs",
+            "url": "https://lcd-terra.wildsage.io/"
+        },
+        {
+            "provider": "Terraform Labs",
+            "url": "https://phoenix-lcd.terra.dev/"
+        },
+        {
+            "provider": "TdrSys",
+            "url": "https://terra2.tdrsys.com/"
+        },
+        {
+            "provider": "cosmosrescue",
+            "url": "https://terra-api.cosmosrescue.dev/"
+        },
+        {
+            "provider": "Chainroot",
+            "url": "https://terra-api.chainroot.io/"
+        }
+    ],
+    "explorer" : {
+        "name": "Mintscan",
+        "url": "https://www.mintscan.io/terra/",
+        "account": "https://www.mintscan.io/terra/address/${address}",
+        "tx": "https://www.mintscan.io/terra/tx/${hash}",
+        "proposal": "https://www.mintscan.io/terra/proposals/${id}"
+    },
+    "about" : {
+        "website" : "https://www.terra.money/",
+        "docs": "https://docs.terra.money/",
+        "github" : "https://github.com/terra-money/core",
+        "blog" : "https://medium.com/terra-money",
+        "medium": "https://medium.com/terra-money",
+        "twitter" : "https://twitter.com/phoenix_dir",
+        "coingecko" : "https://www.coingecko.com/en/coins/terra-luna-2"
+    },
+    "forum": {
+        "main": "https://agora.terra.money/overview"
+    },
+    "description" : {
+        "ko" : "Terra 네트워크는 Terra Classic 에서 하드포크된 Cosmos SDK 기반 비허가형 블록체인 네트워크입니다.",
+        "en" : "Terra is a Cosmos SDK-based permissionless blockchain network, also known as the Phoenix chain. It hosts a wide range of applications and seeks to connect the Cosmos and beyond via the Terra Liquidity Alliance. Its development and maintenance is currently lead by the Phoenix Directive.",
+        "ja" : "Terraネットワークは、Terra ClassicでハードフォークされたCosmos SDKベースの非許可型ブロックチェーンネットワークです。"
+    }
+}

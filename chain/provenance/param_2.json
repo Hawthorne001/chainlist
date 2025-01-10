@@ -1,0 +1,82 @@
+{
+    "chain_id_cosmos" : "pio-mainnet-1",
+    "chain_name": "Provenance",
+    "chain_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/provenance/resource/chain_provenance.png",
+    "main_asset_denom" : "nhash",
+    "main_asset_symbol" : "HASH",
+    "main_asset_image": "https://raw.githubusercontent.com/cosmostation/chainlist/master/chain/provenance/asset/hash.png",
+    "bech_account_prefix" : "pb",
+    "bech_validator_prefix" : "pbvaloper",
+    "origin_genesis_time" : "2021-04-20T16:20:00Z",
+    "api_name" : "provenance",
+    "is_support_mobile_wallet": true,
+    "is_support_extension_wallet": true,
+    "chain_type": [
+        "cosmos"
+    ],
+    "account_type" : [
+        {
+            "hd_path": "m/44'/505'/0'/0/X",
+            "pubkey_style": "secp256k1",
+            "pubkey_type": "/cosmos.crypto.secp256k1.PubKey"
+        }
+    ],
+    "cosmos_fee_info" : {
+        "base" : "0",
+        "rate" : [
+            "2000nhash"
+        ],
+        "is_simulable" : true,
+        "simulated_gas_multiply" : 1.5,
+        "init_gas_limit" : 300000,
+        "fee_threshold" : ""
+    },
+    "grpc_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "grpc-provenance.cosmostation.io:443"
+        }
+    ],
+    "lcd_endpoint" : [
+        {
+            "provider": "Cosmostation",
+            "url": "https://lcd-provenance.cosmostation.io/"
+        },
+        {
+            "provider": "AutoStake 🛡️ Slash Protected",
+            "url": "https://provenance-mainnet-lcd.autostake.com/"
+        },
+        {
+            "provider": "🔥STAVR🔥",
+            "url": "https://provenance.api.m.stavr.tech/"
+        },
+        {
+            "provider": "Inter Blockchain Services",
+            "url": "https://provenance-api.ibs.team/"
+        },
+        {
+            "provider": "High Stakes 🇨🇭",
+            "url": "https://provenance-api.highstakes.ch/"
+        }
+    ],
+    "explorer" : {
+        "name": "Atomscan",
+        "url": "https://atomscan.com/provenance",
+        "account": "https://atomscan.com/provenance/accounts/${address}",
+        "tx": "https://atomscan.com/provenance/transactions/${hash}",
+        "proposal": "https://atomscan.com/provenance/votes/${id}"
+    },
+    "about" : {
+        "website" : "https://www.provenance.io/",
+        "docs": "https://docs.provenance.io",
+        "github" : "https://github.com/provenance-io",
+        "medium": "https://medium.com/provenanceblockchain",
+        "twitter" : "https://twitter.com/provenancefdn",
+        "coingecko" : ""
+    },
+    "description" : {
+        "ko" : "금융 서비스 산업의 블록체인 기술 도입을 위해 설계된 텐더민트 기반 블록체인입니다.",
+        "en" : "Provenance is a Tendermint-based blockchain network utilized by $HASH, designed to support financial service industry.",
+        "ja" : "金融サービス業界のブロックチェーン技術導入のため設計された、テンダーミントベースのブロックチェーンです。"
+    }
+}
